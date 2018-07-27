@@ -3,11 +3,6 @@ react-static-spa
 
 ### はじめに
 
-https://github.com/jkazama/sample-ui-vue/blob/master/README.md 		
-こちらのリポジトリを参考にさせていただいています。ありがとうございます！
-
-[Material-UI](http://www.material-ui.com) / [React.js](https://facebook.github.io/react/) / [Redux](https://github.com/reactjs/redux) を元にしたプロジェクト Web リソース ( HTML / CSS / JS ) です。 SPA ( Single Page Application ) モデルを前提としています。  
-
 react + redux + pug + scssで作る静的ページです
 
 

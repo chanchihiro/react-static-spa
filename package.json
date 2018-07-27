@@ -1,17 +1,17 @@
 {
-  "name": "sample-ui-react",
-  "version": "0.5.0",
-  "description": "React.js / Redux Boilerplate",
+  "name": "react-static-spa",
+  "version": "0.1.0",
+  "description": "React / Redux SPA template",
   "main": "source/js/main.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp build-prod"
   },
-  "author": "jkazama",
+  "author": "chanchihiro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jkazama/sample-ui-react.git"
+    "url": "https://github.com/chanchihiro/react-static-spa"
   },
   "dependencies": {
     "dateformat": "~3.0.0",
