@@ -1,6 +1,6 @@
 {
   "name": "react-static-spa",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "React / Redux SPA template",
   "main": "source/js/main.js",
   "scripts": {
