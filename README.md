@@ -4,6 +4,8 @@ react-static-spa
 ### はじめに
 
 react + redux + pug + scssで作る静的ページです
+以下のページを参考にさせていただいています。 	<br>
+( https://github.com/jkazama/sample-ui-react )
 
 
 #### ビルド/テスト稼働環境構築
