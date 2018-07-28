@@ -40,6 +40,9 @@ react + redux + pug + scssで作る静的ページです <br>
 
 | ライブラリ           | 用途 |
 | ----------------------- | ------------- |
+| `webpack`　　　　　　　　　  | まとめたりしてくれる |
+| `reset-css`　　　　　　　　　  | cssのリセット |
+| `autoplefixer`　　　　　　　　　  | いい感じにバージョンを書き換える必要があります |
 | `react`　　　　　　　　　  | アプリケーションの UI 機能を提供 |
 | `react-dom`　　　　　　　  | アプリケーションの UI 機能 ( DOM ) を提供 |
 | `react-router-dom`        | React.js の SPA ルーティングサポート |
