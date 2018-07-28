@@ -15,7 +15,7 @@ class Asset extends Component {
     return (
       <div>
         <Paper style={styleUiAsset.main} zDepth={1}>
-          <p>うんこ</p>
+          <p>kari</p>
         </Paper>
       </div>
     )

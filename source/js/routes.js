@@ -1,8 +1,6 @@
 import React from "react"
 import {Route, Switch} from 'react-router-dom';
 
-import Login from "container/login"
-import Timeout from "container/timeout"
 import Top from "container/top"
 import Trade from "container/trade"
 import Asset from "container/asset"
