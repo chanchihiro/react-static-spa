@@ -1,11 +1,6 @@
-@mixin pc-layout {
-    @media (min-width: $pc_min_width) {
-        @content;
-    }
-}
-
-@mixin sp-layout {
-    @media (max-width: ($pc_min_width - 1)) {
-        @content;
-    }
+@mixin center {
+　　text-align: center;
+　　position: relative;
+　　top: 50%;
+　　transform: translateY(-50%);
 }

@@ -4,12 +4,12 @@
 
 /* scss */
 @import "mixin";
+@import "base";
+@import "mixin";
 
 
 /* 試し */
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, "Yu Gothic", YuGothic;
-  display: flex;
 }
