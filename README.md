@@ -10,15 +10,15 @@ react + redux + pug + scssで作る静的ページです <br>
 
 #### ビルド/テスト稼働環境構築
 
-`npm install -g gulp`
-`npm install -g yarn`
+`npm install -g gulp` <br>
+`npm install -g yarn` <br>
 `yarn`
 
 ### 動作確認
 
 動作確認は以下の手順で行ってください。
 
-`gulp`
+`gulp` <br>
     - 確認用のブラウザが自動的に起動する。うまく起動しなかったときは 「 http://localhost:3000 」 へアクセス
 
 ### 開発の流れ
@@ -32,7 +32,7 @@ react + redux + pug + scssで作る静的ページです <br>
 
 #### ビルド / リリース
 
-`gulp build-prod`
+`gulp build-prod` <br>
 `public` ディレクトリ直下に出力されたファイルをリリース先のディレクトリへコピー
 
 
@@ -42,7 +42,7 @@ react + redux + pug + scssで作る静的ページです <br>
 | ----------------------- | ------------- |
 | `react`　　　　　　　　　  | アプリケーションの UI 機能を提供 |
 | `react-dom`　　　　　　　  | アプリケーションの UI 機能 ( DOM ) を提供 |
-| `react-router-dom`        | 4.2.+    | React.js の SPA ルーティングサポート |
+| `react-router-dom`        | React.js の SPA ルーティングサポート |
 | `react-tap-event-plugin` | タップ操作のサポート |
 | `redux`                   | Flux 風な状態/イベント概念をサポート |
 | `react-router-redux`      | Redux の状態モデルに対応した react-router |

@@ -5,9 +5,6 @@ const initialState = {
 
 }
 
-const cashInOuts = (state = {}, action) => {
-
-}
 export default combineReducers({
 
 })

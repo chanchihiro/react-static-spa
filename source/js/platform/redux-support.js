@@ -3,7 +3,6 @@ import { Log } from "platform/plain"
 import { Component as ReactSupportComponent } from "platform/react-support"
 import { Level } from 'constants/plain'
 import MasterActions from "actions/master"
-import types from "constants/master"
 
 // Redux 向けのコンポーネント拡張です。
 // Redux 関連の拡張機能を提供します。
