@@ -1,0 +1,15 @@
+/* reset-css */
+@import '../../node_modules/reset-css/sass/reset';
+
+
+/* scss */
+@import "mixin";
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, "Yu Gothic", YuGothic;
+  display: flex;
+}

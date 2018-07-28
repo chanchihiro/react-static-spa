@@ -44,6 +44,7 @@ import webpackStream from 'webpack-stream'
 import runSequence from 'run-sequence'
 import browserSyncTool from 'browser-sync'
 import RevAll from 'gulp-rev-all'
+import autoprefixer from 'gulp-autoprefixer'
 
 const $ = gulpLoaderPlugins()
 const browserSync   = browserSyncTool.create()
@@ -130,6 +131,7 @@ gulp.task('build:pug', () => {
 gulp.task('build:sass', () => {
   return gulp.src(resource.src.sass)
     .pipe($.plumber())
+    .pipe(autoprefixer({browsers: ['last 2 version', 'iOS >= 9', 'Android >= 4.4']}))
     .pipe($.sass())
     .pipe($.concat('style.css'))
     .pipe($.pleeease())
