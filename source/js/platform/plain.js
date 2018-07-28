@@ -19,8 +19,6 @@ export class Formatter {
   }
 }
 
-// ## グローバルユーティリティ
-
 
 // array to object[key: key]
 export function keyMirror(arrays) {

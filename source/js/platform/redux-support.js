@@ -1,7 +1,6 @@
 import { push } from 'react-router-redux'
 import { Log } from "platform/plain"
 import { Component as ReactSupportComponent } from "platform/react-support"
-import { Level } from 'constants/plain'
 import MasterActions from "actions/master"
 
 // Redux 向けのコンポーネント拡張です。

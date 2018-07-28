@@ -9,4 +9,13 @@ export class Component extends React.Component {
   }
   initState() { return {} }
   initialize() { /* nothing. */ }
+  mergeState(data = {}) {
+    this.setState(Object.assign({}, this.state, data))
+  }
+  clearState() {
+    this.setState(Object.assign({}, this.initState()))
+  }
+  handleValue(e, key) {
+    this.mergeState({[key]: e.target.value})
+  }
 }

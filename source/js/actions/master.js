@@ -5,7 +5,9 @@ import types from "constants/master"
 
 export default class MasterActions extends ActionsSupport {
   constructor(dispatch) {
-    super(dispatch)
-  }
+    super(dispatch)}
 
+  practice() {
+  	this.dispatch({type: types.PRACTICE, payload: {}})
+  }
 }

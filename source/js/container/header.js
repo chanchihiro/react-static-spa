@@ -2,8 +2,6 @@ import React from "react"
 import { connect } from "react-redux"
 import PropTypes from 'prop-types'
 import { Component } from "platform/redux-support"
-import { Log } from "platform/plain"
-import { Level } from "constants/plain"
 
 import { AppBar, Drawer, IconMenu, IconButton, MenuItem, Tabs, Tab, Snackbar } from 'material-ui'
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
